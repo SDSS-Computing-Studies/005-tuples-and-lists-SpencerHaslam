@@ -26,4 +26,4 @@ The animal at that index is Dog
 
 animals = ["Bear","Cat","Dog","Fish","Turtle"]
 number = int(input("Enter a number"))
-print("The animal at that index is" + animals[number])
+print("The animal at that index is " + animals[number])
