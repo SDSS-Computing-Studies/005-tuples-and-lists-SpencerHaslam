@@ -28,3 +28,5 @@ word2 = str(input("Enter a word")).strip ()
 word3 = str(input("Enter a word")).strip ()
 word4 = str(input("Enter a word")).strip ()
 word5 = str(input("Enter a word")).strip ()
+words = [word1, word2, word3, word4, word5]
+print(words)
