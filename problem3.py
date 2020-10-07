@@ -31,4 +31,3 @@ leest.remove(-1)
 leest.sort()
 lol = str(max(leest))
 print("The largest number you entered is " + lol)
-

@@ -11,7 +11,6 @@ string
 
 outputs:
 list
-
 example:
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 Choose a person from the list to replace:Rick
@@ -27,4 +26,3 @@ ind = people.index(name1)
 people.remove(name1)
 people.insert(ind, name2)
 print(people)
-
