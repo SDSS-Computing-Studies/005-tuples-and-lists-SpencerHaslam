@@ -20,8 +20,8 @@ Enter the replacement:Dan
 """
 people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 print (people)
-name1 = str(input("Enter a word from the list"))
-name2 = str(input("Enter another word"))
+name1 = str(input("Enter a word from the list").strip())
+name2 = str(input("Enter another word").strip())
 ind = people.index(name1)
 people.remove(name1)
 people.insert(ind, name2)
