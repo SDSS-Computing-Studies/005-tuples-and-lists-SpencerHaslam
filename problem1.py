@@ -11,7 +11,6 @@ string
 
 outputs:
 list
-
 example:
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 Choose a person from the list to replace:Rick
