@@ -1,7 +1,7 @@
 #!python3
 
 """
-Create a variable that contains an empy list.
+Create a variable that contains an empty list.
 Ask a user to enter 5 words.  Add the words into the list.
 Print the list
 inputs:
@@ -23,3 +23,10 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+word1 = str(input("Enter a word")).strip ()
+word2 = str(input("Enter a word")).strip ()
+word3 = str(input("Enter a word")).strip ()
+word4 = str(input("Enter a word")).strip ()
+word5 = str(input("Enter a word")).strip ()
+words = [word1, word2, word3, word4, word5]
+print(words)
