@@ -23,5 +23,11 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
-
-
+leest = []
+while -1 not in leest:
+    num = int(input("Enter a positive integer"))
+    leest.insert(1, num)
+leest.remove(-1)
+leest.sort()
+lol = str(max(leest))
+print("The largest number you entered is " + lol)
