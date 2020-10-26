@@ -22,8 +22,13 @@ Enter the index for an animal:2
 The animal at that index is Dog
 """
 
+class program:
 
+    animals = ["Bear","Cat","Dog","Fish","Turtle"]
+    
+    
+    def __init__(self):
+        self.number = int(input("Enter a number"))
+        print("The animal at that index is " + self.animals[self.number])
 
-animals = ["Bear","Cat","Dog","Fish","Turtle"]
-number = int(input("Enter a number"))
-print("The animal at that index is " + animals[number])
+x = program()
